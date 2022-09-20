@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contactpage</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="footer.css">
+</head>
+
+<body>
+
+  <div class="wrapper">
+      <h2>Kontakt</h2>
+      <div id="error_message"></div>
+
+      <form id="myform" onsubmit= "validate();">
+          <div class="input_field">
+              <input type="text" placeholder="Navn" id="name">
+          </div>
+          <div class="input_field">
+              <input type="text" placeholder="Emne" id="subject">
+          </div>
+          <div class="input_field">
+              <input type="text" placeholder="telefon" id="phone">
+          </div>
+          <div class="input_field">
+              <input type="text" placeholder="Email" id="email">
+          </div>
+          <div class="input_field">
+              <textarea id="message" placeholder="Besked"></textarea>
+          </div>
+          <div class="btn">
+              <input type="submit">
+          </div>
+      </form>
+  </div> 
+
+
+  <footer>
+    <div class="waves">
+        <div class="wave" id="wave1"></div>
+        <div class="wave" id="wave2"></div>
+        <div class="wave" id="wave3"></div>
+        <div class="wave" id="wave4"></div>
+    </div>
+    <ul class="social_icon">
+      <li><a href="https://www.facebook.com/profile.php?id=100009148428709"><ion-icon name="logo-facebook"></ion-icon></a></li>  
+    </ul>
+    <ul class="menu">
+       <li><a href="home.html">Hjem</a></li> 
+       <li><a href="about.html">Om mig</a></li> 
+       <li><a href="poses.html">Programmer</a></li>  
+       <li><a href="contact.html">Kontakt</a></li> 
+    </ul>
+    <p>@2022 Maria Husted</p>
+</footer>
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src="validate.js"></script>
+</body>
+
+</html>

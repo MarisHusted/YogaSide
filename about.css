@@ -1,0 +1,59 @@
+/*about me*/
+
+.curved {
+    background-color: #dde9f3;
+    color: #fafaf9;
+    text-align: center;
+}
+
+.curved h1 {
+    font-size: 5rem;
+    font-family: "Poppins", sans-serif;
+    margin-top: 10;
+}
+
+.curved p {
+    font-size: 1rem;
+    font-family: "Poppins", sans-serif;
+    margin: 3rem;
+}
+
+.curved svg{
+  display: block;
+}
+
+
+.Aboutme{
+    padding-top: 10px;
+    height: 315px;
+    width: 290px;
+    border-radius: 50%;
+}
+
+
+
+
+/*gallery*/
+.container{
+    margin-top: 30px;
+}
+
+
+.col-md-4{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+img:hover{
+    transform: scale(1.1);
+    transition: 1s; 
+}
+
+.img-fluid{
+    border-radius: 50%;
+}
+
+.row{
+    padding-bottom: 150px;
+}
